@@ -20,6 +20,9 @@
      body: RandomData.random_paragraph
    )
  end
+ puts "#{Post.count}"
+ Post.find_or_create_by(title: "A title", body: "A body")
+ puts "#{Post.count}"
  
  puts "Seed finished"
  puts "#{Post.count} posts created"
