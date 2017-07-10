@@ -1,0 +1,15 @@
+=> [32m#<ActiveModel::Errors:0x00000003c6c660[0m
+ @base[32m=[0m
+  [32m#<Post:0x00000003ddec28[0m
+   id: [1;36mnil[0m,
+   title: [1;36mnil[0m,
+   body: [1;36mnil[0m,
+   created_at: [1;36mnil[0m,
+   updated_at: [1;36mnil[0m,
+   topic_id: [1;36mnil[0m[32m>[0m,
+ @messages[32m=[0m
+  {[33m:title[0m=>
+    [[31m[1;31m"[0m[31mis too short (minimum is 5 characters)[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mcan't be blank[1;31m"[0m[31m[0m],
+   [33m:body[0m=>
+    [[31m[1;31m"[0m[31mis too short (minimum is 20 characters)[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mcan't be blank[1;31m"[0m[31m[0m],
+   [33m:topic[0m=>[[31m[1;31m"[0m[31mcan't be blank[1;31m"[0m[31m[0m]}[32m>[0m
